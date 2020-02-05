@@ -13,7 +13,11 @@ class CashRegister
   
   def total 
     @total 
-  end 
+  end
+  
+  def items
+    @items
+  end
   
   def total=(total)
     @total = total
