@@ -41,9 +41,8 @@ class CashRegister
   end
   
   def void_last_transaction
-    self.total -= @last_price
-    
-    @num.times do @items.pop end
+    self.total = @old_total
+    self.items = @old_items
     
   end
   
