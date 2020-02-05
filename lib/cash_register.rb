@@ -1,5 +1,7 @@
 class CashRegister 
   
+  
+  
   def initialize(discount = 0)
     @total = 0
     @discount = discount
@@ -13,11 +15,15 @@ class CashRegister
     @total 
   end 
   
+  def total=(total)
+    @total = total
+  end
+  
 end 
 
 
-
-
+c = CashRegister.new
+c.total=(50)
 
 
 
