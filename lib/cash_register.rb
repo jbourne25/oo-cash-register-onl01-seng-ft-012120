@@ -11,10 +11,7 @@ class CashRegister
     @discount 
   end
   
-  def total 
-    @total 
-  end 
-  
+
   def total=(total)
     @total = total
   end
@@ -22,10 +19,6 @@ class CashRegister
 end 
 
 
-c = CashRegister.new
-c.total=(50)
-
-c.total
 
 
 
