@@ -41,6 +41,10 @@ class CashRegister
     end
   end
   
+  def items=(items)
+    @items = items
+  end
+  
   def void_last_transaction
     self.total = @old_total
     self.items = @old_items
