@@ -25,6 +25,8 @@ end
 c = CashRegister.new
 c.total=(50)
 
+c.total
+
 
 
 
